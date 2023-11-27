@@ -145,7 +145,7 @@ table {
   justify-content: space-between;
 }
 .justify-content-center {
-  justify-content: space-between;
+  justify-content: center;
 }
 .header {
   height: 50px;
