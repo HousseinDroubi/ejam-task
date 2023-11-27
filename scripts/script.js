@@ -42,7 +42,6 @@ const handleScreenWidth = () => {
     document.body.clientWidth;
 
   if (screenWidth <= 360) {
-    console.log("Hello");
     showParagraph(1);
   } else {
     for (let i = 1; i <= 4; i++) {
