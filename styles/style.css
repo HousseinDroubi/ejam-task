@@ -417,6 +417,10 @@ table {
     text-align: left;
 }
 
+.body>div>div:last-child>div:nth-child(7) {
+    margin-top: 40px;
+}
+
 /* Reusable classes */
 .color-white {
     color: white;
