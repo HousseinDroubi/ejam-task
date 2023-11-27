@@ -421,6 +421,17 @@ table {
     margin-top: 40px;
 }
 
+.body>div>div:last-child>div:nth-child(7) p {
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: red;
+    text-decoration: underline;
+}
+
 /* Reusable classes */
 .color-white {
     color: white;
