@@ -13,6 +13,12 @@ const showParagraph = (paragraph_number) => {
       .getElementById(`header_paragraph_${i}`)
       .classList.add("display-none");
   }
+  document
+    .getElementById(`header_paragraph_${paragraph_number}`)
+    .classList.remove("display-none");
+  document
+    .getElementById(`header_paragraph_${paragraph_number}`)
+    .classList.add("flex");
 };
 
 const arrowLeft = () => {
