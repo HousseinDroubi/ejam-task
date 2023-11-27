@@ -344,6 +344,16 @@ table {
 
 .body>div>div:last-child>div:nth-child(3)>div>p {
     margin-left: 10px;
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.body>div>div:last-child>div:nth-child(3)>div span {
+    font-weight: 700;
 }
 
 /* Reusable classes */
