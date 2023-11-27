@@ -542,15 +542,18 @@ table {
 /* Media Query */
 @media screen and (max-width: 360px) {
 
+    /* Header */
     .header>div>div:first-child,
     .header>div>div:last-child {
         display: flex;
     }
 
+    /* Secure Partnerships */
     .secure-partnerships img {
         width: 40%;
     }
 
+    /* Big Title */
     .big-title>div:first-child p {
         text-align: center;
     }
@@ -559,6 +562,7 @@ table {
         font-size: 16px;
     }
 
+    /* Steps */
     .steps>div {
         width: 100%;
     }
@@ -583,6 +587,7 @@ table {
         font-weight: 400;
     }
 
+    /* Body */
     .body>div {
         width: 100%;
     }
@@ -637,6 +642,7 @@ table {
         height: 1px;
     }
 
+    /* Footer */
     .footer {
         height: 70px;
     }
