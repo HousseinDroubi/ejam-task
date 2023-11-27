@@ -274,6 +274,19 @@ table {
     color: #5BB59A;
 }
 
+.body>div>div:last-child>div:first-child>p {
+    font-family: Manrope;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.body>div>div:last-child>div:first-child span {
+    font-weight: 600;
+}
+
 /* Reusable classes */
 .color-white {
     color: white;
