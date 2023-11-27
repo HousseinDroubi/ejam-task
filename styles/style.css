@@ -191,7 +191,7 @@ table {
 .steps > div > div > div:last-child {
   margin-left: 20px;
 }
-.steps > div > div > div:first-child > p {
+.steps p {
   font-family: Manrope;
   font-size: 20px;
   font-weight: 400;
