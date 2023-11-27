@@ -80,12 +80,12 @@ time,
 mark,
 audio,
 video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
 }
 
 /* HTML5 display-role reset for older browsers */
@@ -100,158 +100,181 @@ hgroup,
 menu,
 nav,
 section {
-  display: block;
+    display: block;
 }
 
 body {
-  line-height: 1;
+    line-height: 1;
 }
 
 ol,
 ul {
-  list-style: none;
+    list-style: none;
 }
 
 blockquote,
 q {
-  quotes: none;
+    quotes: none;
 }
 
 blockquote:before,
 blockquote:after,
 q:before,
 q:after {
-  content: "";
-  content: none;
+    content: "";
+    content: none;
 }
 
 table {
-  border-collapse: collapse;
-  border-spacing: 0;
+    border-collapse: collapse;
+    border-spacing: 0;
 }
 
 /* Header */
 .header {
-  height: 50px;
-  background-color: #252f3d;
+    height: 50px;
+    background-color: #252f3d;
 }
+
 .header img {
-  height: 22px;
-  width: 22px;
+    height: 22px;
+    width: 22px;
 }
+
 .header p {
-  font-family: Manrope;
-  font-size: 12px;
-  font-weight: 500;
-  line-height: 12px;
-  letter-spacing: 0em;
-  margin-left: 10px;
+    font-family: Manrope;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 12px;
+    letter-spacing: 0em;
+    margin-left: 10px;
 }
 
 /* Secure Partnerships */
 .secure-partnerships {
-  height: 96px;
+    height: 96px;
 }
+
 /* Big Title */
-.big-title > div > p {
-  font-family: Manrope;
-  font-size: 24px;
-  font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0em;
+.big-title>div>p {
+    font-family: Manrope;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0em;
 }
-.big-title > div:first-child > p {
-  font-family: Manrope;
-  font-size: 48px;
-  font-weight: 400;
-  line-height: 48px;
-  letter-spacing: 0em;
+
+.big-title>div:first-child>p {
+    font-family: Manrope;
+    font-size: 48px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
 }
-.big-title > div:last-child {
-  margin-top: 20px;
+
+.big-title>div:last-child {
+    margin-top: 20px;
 }
 
 /* Steps */
 .steps {
-  margin-top: 40px;
+    margin-top: 40px;
 }
-.steps > div > div > div:first-child {
-  width: 40px;
-  height: 40px;
-  background-color: #85bf55;
-  border-radius: 50%;
+
+.steps>div>div>div:first-child {
+    width: 40px;
+    height: 40px;
+    background-color: #85bf55;
+    border-radius: 50%;
 }
-.steps > div > div:nth-child(3) > div:first-child {
-  background-color: #2c7ef8;
+
+.steps>div>div:nth-child(3)>div:first-child {
+    background-color: #2c7ef8;
 }
-.steps > div > div:last-child > div:first-child {
-  border: 2px solid #2c7ef8;
-  background-color: white;
+
+.steps>div>div:last-child>div:first-child {
+    border: 2px solid #2c7ef8;
+    background-color: white;
 }
-.steps > div > div > div:last-child {
-  margin-left: 20px;
+
+.steps>div>div>div:last-child {
+    margin-left: 20px;
 }
+
 .steps p {
-  font-family: Manrope;
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 22px;
-  letter-spacing: 0em;
-  text-align: left;
+    font-family: Manrope;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
 }
-.steps > div > div:nth-child(3) > div:last-child > p {
-  font-weight: 700;
+
+.steps>div>div:nth-child(3)>div:last-child>p {
+    font-weight: 700;
 }
 
 /* Body */
-.body > div {
-  background-color: #fafafa;
-  margin-top: 30px;
-}
-.body > div {
-  padding: 30px 0 30px 0;
-}
-.body > div > div {
-  width: 45%;
+.body>div {
+    background-color: #fafafa;
+    margin-top: 30px;
 }
 
-.body > div > div:first-child > div > img {
-  width: 100%;
-  height: 591px;
-  border-radius: 10px;
+.body>div {
+    padding: 30px 0 30px 0;
+}
+
+.body>div>div {
+    width: 45%;
+}
+
+.body>div>div:first-child>div>img {
+    width: 100%;
+    height: 591px;
+    border-radius: 10px;
 }
 
 /* Reusable classes */
 .color-white {
-  color: white;
+    color: white;
 }
+
 .color-gray {
-  color: #4d5254;
+    color: #4d5254;
 }
+
 .color-blue {
-  color: #2c7ef8;
+    color: #2c7ef8;
 }
+
 .width-90 {
-  width: 90%;
+    width: 90%;
 }
+
 .flex {
-  display: flex;
+    display: flex;
 }
+
 .flex-row {
-  flex-direction: row;
+    flex-direction: row;
 }
+
 .flex-column {
-  flex-direction: column;
+    flex-direction: column;
 }
+
 .align-items-center {
-  align-items: center;
+    align-items: center;
 }
+
 .justify-content-space-evenly {
-  justify-content: space-evenly;
+    justify-content: space-evenly;
 }
+
 .justify-content-space-between {
-  justify-content: space-between;
+    justify-content: space-between;
 }
+
 .justify-content-center {
-  justify-content: center;
+    justify-content: center;
 }
