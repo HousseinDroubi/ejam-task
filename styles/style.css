@@ -199,7 +199,9 @@ table {
   letter-spacing: 0em;
   text-align: left;
 }
-
+.steps > div > div:nth-child(3) > div:last-child > p {
+  font-weight: 700;
+}
 /* Reusable classes */
 .color-white {
   color: white;
