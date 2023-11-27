@@ -202,6 +202,7 @@ table {
 .steps > div > div:nth-child(3) > div:last-child > p {
   font-weight: 700;
 }
+
 /* Reusable classes */
 .color-white {
   color: white;
