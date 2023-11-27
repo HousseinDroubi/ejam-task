@@ -206,6 +206,7 @@ table {
 /* Body */
 .body > div {
   background-color: #fafafa;
+  margin-top: 30px;
 }
 
 /* Reusable classes */
