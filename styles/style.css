@@ -203,6 +203,11 @@ table {
   font-weight: 700;
 }
 
+/* Body */
+.body > div {
+  background-color: #fafafa;
+}
+
 /* Reusable classes */
 .color-white {
   color: white;
