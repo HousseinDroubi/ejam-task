@@ -465,6 +465,13 @@ table {
     text-align: left;
 }
 
+.footer hr {
+    height: 16px;
+    width: 1px;
+    background-color: #CFCFCF;
+    margin-left: 10px;
+}
+
 /* Reusable classes */
 .color-white {
     color: white;
