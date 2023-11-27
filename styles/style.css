@@ -141,6 +141,12 @@ table {
 .justify-content-space-evenly {
   justify-content: space-evenly;
 }
+.justify-content-space-between {
+  justify-content: space-between;
+}
+.justify-content-center {
+  justify-content: space-between;
+}
 .header {
   height: 50px;
   background-color: #252f3d;
@@ -159,4 +165,7 @@ table {
 }
 .color-white {
   color: white;
+}
+.width-90 {
+  width: 90%;
 }
