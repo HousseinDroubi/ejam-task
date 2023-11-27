@@ -188,7 +188,9 @@ table {
   border: 2px solid #2c7ef8;
   background-color: white;
 }
-
+.steps > div > div > div:last-child {
+  margin-left: 20px;
+}
 /* Reusable classes */
 .color-white {
   color: white;
