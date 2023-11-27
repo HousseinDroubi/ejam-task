@@ -129,6 +129,36 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+/* Header */
+.header {
+  height: 50px;
+  background-color: #252f3d;
+}
+.header img {
+  height: 22px;
+  width: 22px;
+}
+.header p {
+  font-family: Manrope;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 12px;
+  letter-spacing: 0em;
+  margin-left: 10px;
+}
+
+/* Secure Partnerships */
+.secure-partnerships {
+  height: 96px;
+}
+/* Reusable classes */
+.color-white {
+  color: white;
+}
+.width-90 {
+  width: 90%;
+}
 .flex {
   display: flex;
 }
@@ -146,30 +176,4 @@ table {
 }
 .justify-content-center {
   justify-content: center;
-}
-.header {
-  height: 50px;
-  background-color: #252f3d;
-}
-.header img {
-  height: 22px;
-  width: 22px;
-}
-.header p {
-  font-family: Manrope;
-  font-size: 12px;
-  font-weight: 500;
-  line-height: 12px;
-  letter-spacing: 0em;
-  margin-left: 10px;
-}
-.color-white {
-  color: white;
-}
-.width-90 {
-  width: 90%;
-}
-/* Secure Partnerships */
-.secure-partnerships {
-  height: 96px;
 }
