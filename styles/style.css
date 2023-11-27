@@ -234,6 +234,14 @@ table {
     border-radius: 10px;
 }
 
+.testimonial {
+    margin-top: 20px;
+    background-color: white;
+    padding: 20px;
+    height: 168px;
+}
+
+
 /* Reusable classes */
 .color-white {
     color: white;
