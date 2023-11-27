@@ -545,4 +545,12 @@ table {
     .secure-partnerships img {
         width: 40%;
     }
+
+    .big-title>div:first-child p {
+        text-align: center;
+    }
+
+    .big-title>div:last-child p {
+        font-size: 16px;
+    }
 }
