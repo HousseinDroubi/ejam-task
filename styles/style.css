@@ -172,6 +172,9 @@ table {
 }
 
 /* Steps */
+.steps {
+  margin-top: 40px;
+}
 .steps > div > div:first-child {
   width: 40px;
   height: 40px;
