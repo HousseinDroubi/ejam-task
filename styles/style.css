@@ -636,4 +636,21 @@ table {
         width: 90vw;
         height: 1px;
     }
+
+    .footer {
+        height: 70px;
+    }
+
+    .footer p {
+        font-size: 12px;
+    }
+
+    .footer>div {
+        flex-direction: column;
+    }
+
+    .footer>div>div:first-child {
+        width: 90%;
+        justify-content: space-between;
+    }
 }
