@@ -138,3 +138,18 @@ table {
 .justify-content-space-evenly {
   justify-content: space-evenly;
 }
+.header {
+  height: 50px;
+  background-color: #252f3d;
+}
+.header img {
+  height: 18px;
+  width: 18px;
+}
+.header p {
+  font-family: Manrope;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 12px;
+  letter-spacing: 0em;
+}
