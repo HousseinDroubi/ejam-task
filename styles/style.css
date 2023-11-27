@@ -530,6 +530,14 @@ table {
     justify-content: center;
 }
 
+.display-none {
+    display: none;
+}
+
+.display-inherit {
+    display: inherit;
+}
+
 /* Media Query */
 @media screen and (max-width: 360px) {
 
