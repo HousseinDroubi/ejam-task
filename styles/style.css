@@ -371,6 +371,10 @@ table {
     border-radius: 50%;
 }
 
+.body>div>div:last-child>div:nth-child(4)>div:last-child {
+    margin-left: 20px;
+}
+
 /* Reusable classes */
 .color-white {
     color: white;
