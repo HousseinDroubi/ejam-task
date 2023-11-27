@@ -456,6 +456,15 @@ table {
     margin-top: 40px;
 }
 
+.footer p {
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+
 /* Reusable classes */
 .color-white {
     color: white;
