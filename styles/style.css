@@ -406,6 +406,10 @@ table {
     margin-top: 10px;
 }
 
+.body>div>div:last-child>div:nth-child(6)>div:first-child {
+    flex-grow: 1;
+}
+
 .body>div>div:last-child>div:nth-child(6) hr {
     height: 16px;
     width: 1px;
