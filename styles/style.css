@@ -209,6 +209,12 @@ table {
   margin-top: 30px;
 }
 
+.body > div > div:first-child > div > img {
+  width: 575px;
+  height: 591px;
+  border-radius: 10px;
+}
+
 /* Reusable classes */
 .color-white {
   color: white;
