@@ -167,6 +167,9 @@ table {
   line-height: 48px;
   letter-spacing: 0em;
 }
+.big-title > div:last-child {
+  margin-top: 20px;
+}
 /* Reusable classes */
 .color-white {
   color: white;
