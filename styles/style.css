@@ -250,6 +250,10 @@ table {
     text-align: left;
 }
 
+.testimonial>div:first-child>div:last-child {
+    margin-left: 10px;
+}
+
 /* Reusable classes */
 .color-white {
     color: white;
