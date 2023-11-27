@@ -356,6 +356,14 @@ table {
     font-weight: 700;
 }
 
+.body>div>div:last-child>div:nth-child(4) {
+    padding: 12px 16px 12px 16px;
+    border-radius: 10px;
+    height: 30px;
+    background-color: #EDF3FD;
+    margin-top: 30px;
+}
+
 /* Reusable classes */
 .color-white {
     color: white;
