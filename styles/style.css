@@ -621,4 +621,18 @@ table {
     .body>div>div:last-child>div:last-child p {
         font-size: 12px;
     }
+
+    .body>div>div:last-child>div:nth-child(6) {
+        flex-direction: column;
+        height: 80px;
+    }
+
+    .body>div>div:last-child>div:nth-child(6)>div:first-child {
+        width: 100%;
+    }
+
+    .body>div>div:last-child>div:nth-child(6)>div:nth-child(2)>hr {
+        width: 90vw;
+        height: 1px;
+    }
 }
