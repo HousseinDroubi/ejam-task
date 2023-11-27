@@ -7,7 +7,13 @@ const arrow_right = document.getElementById("arrow_right");
 
 let counter = 1;
 
-const showParagraph = (paragraph_number) => {};
+const showParagraph = (paragraph_number) => {
+  for (let i = 1; i <= 4; i++) {
+    document
+      .getElementById(`header_paragraph_${i}`)
+      .classList.add("display-none");
+  }
+};
 
 const arrowLeft = () => {
   if (counter == 1) {
@@ -15,6 +21,7 @@ const arrowLeft = () => {
   } else {
     counter--;
   }
+  showParagraph(counter);
   console.log("arrowLeft");
   console.log(counter);
 };
@@ -25,6 +32,7 @@ const arrowRight = () => {
   } else {
     counter++;
   }
+  showParagraph(counter);
   console.log("arrowRight");
   console.log(counter);
 };
