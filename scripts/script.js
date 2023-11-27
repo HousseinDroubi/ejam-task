@@ -7,6 +7,8 @@ const arrow_right = document.getElementById("arrow_right");
 
 let counter = 1;
 
+const showParagraph = (paragraph_number) => {};
+
 const arrowLeft = () => {
   if (counter == 1) {
     counter = 4;
