@@ -175,16 +175,16 @@ table {
 .steps {
   margin-top: 40px;
 }
-.steps > div > div:first-child {
+.steps > div > div > div:first-child {
   width: 40px;
   height: 40px;
   background-color: #85bf55;
   border-radius: 50%;
 }
-.steps > div:nth-child(3) > div:first-child {
+.steps > div > div:nth-child(3) > div:first-child {
   background-color: #2c7ef8;
 }
-.steps > div:last-child > div:first-child {
+.steps > div > div:last-child > div:first-child {
   border: 2px solid #2c7ef8;
   background-color: white;
 }
