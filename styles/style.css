@@ -541,4 +541,8 @@ table {
     .header>div>div:last-child {
         display: flex;
     }
+
+    .secure-partnerships img {
+        width: 40%;
+    }
 }
