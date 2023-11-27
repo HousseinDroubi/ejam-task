@@ -287,6 +287,20 @@ table {
     font-weight: 600;
 }
 
+.description {
+    margin-top: 10px;
+}
+
+.description>div:first-child {
+    width: 25%;
+    background-color: #2c7ef8;
+    border-radius: 10px;
+}
+
+.description>div:last-child {
+    width: 70%;
+}
+
 /* Reusable classes */
 .color-white {
     color: white;
