@@ -301,6 +301,35 @@ table {
     width: 70%;
 }
 
+.description>div:last-child>div:first-child>div:first-child>p {
+    font-family: Manrope;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.description>div:last-child>div:first-child>div:last-child>div:first-child>p {
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    text-decoration: line-through;
+}
+
+.description>div:last-child>div:first-child>div:last-child>div:last-child>p {
+    font-family: Manrope;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-left: 10px;
+}
+
 /* Reusable classes */
 .color-white {
     color: white;
