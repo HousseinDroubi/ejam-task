@@ -534,10 +534,6 @@ table {
     display: none;
 }
 
-.display-inherit {
-    display: inherit;
-}
-
 /* Media Query */
 @media screen and (max-width: 360px) {
 
