@@ -140,6 +140,11 @@ table {
     width: 22px;
 }
 
+.header>div>div:first-child,
+.header>div>div:last-child {
+    display: none;
+}
+
 .header p {
     font-family: Manrope;
     font-size: 12px;
@@ -519,4 +524,20 @@ table {
 
 .justify-content-center {
     justify-content: center;
+}
+
+/* Media Query */
+@media screen and (max-width: 360px) {
+
+    .header>div>div {
+        display: none;
+    }
+
+    .header>div>div:first-child,
+    .header>div>div:nth-child(2),
+    .header>div>div:last-child {
+        display: flex;
+    }
+
+
 }
