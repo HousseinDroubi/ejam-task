@@ -28,8 +28,6 @@ const arrowLeft = () => {
     counter--;
   }
   showParagraph(counter);
-  console.log("arrowLeft");
-  console.log(counter);
 };
 
 const arrowRight = () => {
@@ -39,8 +37,7 @@ const arrowRight = () => {
     counter++;
   }
   showParagraph(counter);
-  console.log("arrowRight");
-  console.log(counter);
 };
+
 arrow_left.addEventListener("click", () => arrowLeft());
 arrow_right.addEventListener("click", () => arrowRight());
