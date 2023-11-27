@@ -152,6 +152,21 @@ table {
 .secure-partnerships {
   height: 96px;
 }
+/* Big Title */
+.big-title > div > p {
+  font-family: Manrope;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+}
+.big-title > div:first-child > p {
+  font-family: Manrope;
+  font-size: 48px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0em;
+}
 /* Reusable classes */
 .color-white {
   color: white;
